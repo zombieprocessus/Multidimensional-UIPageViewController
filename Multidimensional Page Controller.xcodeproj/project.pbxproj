@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524CFAE318EAFF8B00A47C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAE218EAFF8B00A47C75 /* Foundation.framework */; };
+		524CFAE518EAFF8B00A47C75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAE418EAFF8B00A47C75 /* CoreGraphics.framework */; };
+		524CFAE718EAFF8B00A47C75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAE618EAFF8B00A47C75 /* UIKit.framework */; };
+		524CFAED18EAFF8B00A47C75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524CFAEB18EAFF8B00A47C75 /* InfoPlist.strings */; };
+		524CFAEF18EAFF8B00A47C75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CFAEE18EAFF8B00A47C75 /* main.m */; };
+		524CFAF318EAFF8B00A47C75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CFAF218EAFF8B00A47C75 /* AppDelegate.m */; };
+		524CFAF518EAFF8B00A47C75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524CFAF418EAFF8B00A47C75 /* Images.xcassets */; };
+		524CFAFC18EAFF8B00A47C75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAFB18EAFF8B00A47C75 /* XCTest.framework */; };
+		524CFAFD18EAFF8B00A47C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAE218EAFF8B00A47C75 /* Foundation.framework */; };
+		524CFAFE18EAFF8B00A47C75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAE618EAFF8B00A47C75 /* UIKit.framework */; };
+		524CFB0618EAFF8B00A47C75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524CFB0418EAFF8B00A47C75 /* InfoPlist.strings */; };
+		524CFB0818EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CFB0718EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524CFAFF18EAFF8B00A47C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524CFAD718EAFF8B00A47C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524CFADE18EAFF8B00A47C75;
+			remoteInfo = "Multidimensional Page Controller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524CFADF18EAFF8B00A47C75 /* Multidimensional Page Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multidimensional Page Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524CFAE218EAFF8B00A47C75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		524CFAE418EAFF8B00A47C75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		524CFAE618EAFF8B00A47C75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		524CFAEA18EAFF8B00A47C75 /* Multidimensional Page Controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multidimensional Page Controller-Info.plist"; sourceTree = "<group>"; };
+		524CFAEC18EAFF8B00A47C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		524CFAEE18EAFF8B00A47C75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		524CFAF018EAFF8B00A47C75 /* Multidimensional Page Controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multidimensional Page Controller-Prefix.pch"; sourceTree = "<group>"; };
+		524CFAF118EAFF8B00A47C75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		524CFAF218EAFF8B00A47C75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		524CFAF418EAFF8B00A47C75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		524CFAFA18EAFF8B00A47C75 /* Multidimensional Page ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multidimensional Page ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524CFAFB18EAFF8B00A47C75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		524CFB0318EAFF8B00A47C75 /* Multidimensional Page ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multidimensional Page ControllerTests-Info.plist"; sourceTree = "<group>"; };
+		524CFB0518EAFF8B00A47C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		524CFB0718EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multidimensional_Page_ControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524CFADC18EAFF8B00A47C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CFAE518EAFF8B00A47C75 /* CoreGraphics.framework in Frameworks */,
+				524CFAE718EAFF8B00A47C75 /* UIKit.framework in Frameworks */,
+				524CFAE318EAFF8B00A47C75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524CFAF718EAFF8B00A47C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CFAFC18EAFF8B00A47C75 /* XCTest.framework in Frameworks */,
+				524CFAFE18EAFF8B00A47C75 /* UIKit.framework in Frameworks */,
+				524CFAFD18EAFF8B00A47C75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524CFAD618EAFF8B00A47C75 = {
+			isa = PBXGroup;
+			children = (
+				524CFAE818EAFF8B00A47C75 /* Multidimensional Page Controller */,
+				524CFB0118EAFF8B00A47C75 /* Multidimensional Page ControllerTests */,
+				524CFAE118EAFF8B00A47C75 /* Frameworks */,
+				524CFAE018EAFF8B00A47C75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524CFAE018EAFF8B00A47C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524CFADF18EAFF8B00A47C75 /* Multidimensional Page Controller.app */,
+				524CFAFA18EAFF8B00A47C75 /* Multidimensional Page ControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524CFAE118EAFF8B00A47C75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				524CFAE218EAFF8B00A47C75 /* Foundation.framework */,
+				524CFAE418EAFF8B00A47C75 /* CoreGraphics.framework */,
+				524CFAE618EAFF8B00A47C75 /* UIKit.framework */,
+				524CFAFB18EAFF8B00A47C75 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		524CFAE818EAFF8B00A47C75 /* Multidimensional Page Controller */ = {
+			isa = PBXGroup;
+			children = (
+				524CFAF118EAFF8B00A47C75 /* AppDelegate.h */,
+				524CFAF218EAFF8B00A47C75 /* AppDelegate.m */,
+				524CFAF418EAFF8B00A47C75 /* Images.xcassets */,
+				524CFAE918EAFF8B00A47C75 /* Supporting Files */,
+			);
+			path = "Multidimensional Page Controller";
+			sourceTree = "<group>";
+		};
+		524CFAE918EAFF8B00A47C75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524CFAEA18EAFF8B00A47C75 /* Multidimensional Page Controller-Info.plist */,
+				524CFAEB18EAFF8B00A47C75 /* InfoPlist.strings */,
+				524CFAEE18EAFF8B00A47C75 /* main.m */,
+				524CFAF018EAFF8B00A47C75 /* Multidimensional Page Controller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		524CFB0118EAFF8B00A47C75 /* Multidimensional Page ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				524CFB0718EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m */,
+				524CFB0218EAFF8B00A47C75 /* Supporting Files */,
+			);
+			path = "Multidimensional Page ControllerTests";
+			sourceTree = "<group>";
+		};
+		524CFB0218EAFF8B00A47C75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524CFB0318EAFF8B00A47C75 /* Multidimensional Page ControllerTests-Info.plist */,
+				524CFB0418EAFF8B00A47C75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524CFADE18EAFF8B00A47C75 /* Multidimensional Page Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524CFB0B18EAFF8B00A47C75 /* Build configuration list for PBXNativeTarget "Multidimensional Page Controller" */;
+			buildPhases = (
+				524CFADB18EAFF8B00A47C75 /* Sources */,
+				524CFADC18EAFF8B00A47C75 /* Frameworks */,
+				524CFADD18EAFF8B00A47C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multidimensional Page Controller";
+			productName = "Multidimensional Page Controller";
+			productReference = 524CFADF18EAFF8B00A47C75 /* Multidimensional Page Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524CFAF918EAFF8B00A47C75 /* Multidimensional Page ControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524CFB0E18EAFF8B00A47C75 /* Build configuration list for PBXNativeTarget "Multidimensional Page ControllerTests" */;
+			buildPhases = (
+				524CFAF618EAFF8B00A47C75 /* Sources */,
+				524CFAF718EAFF8B00A47C75 /* Frameworks */,
+				524CFAF818EAFF8B00A47C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524CFB0018EAFF8B00A47C75 /* PBXTargetDependency */,
+			);
+			name = "Multidimensional Page ControllerTests";
+			productName = "Multidimensional Page ControllerTests";
+			productReference = 524CFAFA18EAFF8B00A47C75 /* Multidimensional Page ControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524CFAD718EAFF8B00A47C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Zombie Processus";
+				TargetAttributes = {
+					524CFAF918EAFF8B00A47C75 = {
+						TestTargetID = 524CFADE18EAFF8B00A47C75;
+					};
+				};
+			};
+			buildConfigurationList = 524CFADA18EAFF8B00A47C75 /* Build configuration list for PBXProject "Multidimensional Page Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 524CFAD618EAFF8B00A47C75;
+			productRefGroup = 524CFAE018EAFF8B00A47C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524CFADE18EAFF8B00A47C75 /* Multidimensional Page Controller */,
+				524CFAF918EAFF8B00A47C75 /* Multidimensional Page ControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524CFADD18EAFF8B00A47C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CFAED18EAFF8B00A47C75 /* InfoPlist.strings in Resources */,
+				524CFAF518EAFF8B00A47C75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524CFAF818EAFF8B00A47C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CFB0618EAFF8B00A47C75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524CFADB18EAFF8B00A47C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CFAF318EAFF8B00A47C75 /* AppDelegate.m in Sources */,
+				524CFAEF18EAFF8B00A47C75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524CFAF618EAFF8B00A47C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CFB0818EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524CFB0018EAFF8B00A47C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524CFADE18EAFF8B00A47C75 /* Multidimensional Page Controller */;
+			targetProxy = 524CFAFF18EAFF8B00A47C75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524CFAEB18EAFF8B00A47C75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524CFAEC18EAFF8B00A47C75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		524CFB0418EAFF8B00A47C75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524CFB0518EAFF8B00A47C75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524CFB0918EAFF8B00A47C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		524CFB0A18EAFF8B00A47C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524CFB0C18EAFF8B00A47C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multidimensional Page Controller/Multidimensional Page Controller-Prefix.pch";
+				INFOPLIST_FILE = "Multidimensional Page Controller/Multidimensional Page Controller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		524CFB0D18EAFF8B00A47C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multidimensional Page Controller/Multidimensional Page Controller-Prefix.pch";
+				INFOPLIST_FILE = "Multidimensional Page Controller/Multidimensional Page Controller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		524CFB0F18EAFF8B00A47C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multidimensional Page Controller.app/Multidimensional Page Controller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multidimensional Page Controller/Multidimensional Page Controller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Multidimensional Page ControllerTests/Multidimensional Page ControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		524CFB1018EAFF8B00A47C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multidimensional Page Controller.app/Multidimensional Page Controller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multidimensional Page Controller/Multidimensional Page Controller-Prefix.pch";
+				INFOPLIST_FILE = "Multidimensional Page ControllerTests/Multidimensional Page ControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524CFADA18EAFF8B00A47C75 /* Build configuration list for PBXProject "Multidimensional Page Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524CFB0918EAFF8B00A47C75 /* Debug */,
+				524CFB0A18EAFF8B00A47C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524CFB0B18EAFF8B00A47C75 /* Build configuration list for PBXNativeTarget "Multidimensional Page Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524CFB0C18EAFF8B00A47C75 /* Debug */,
+				524CFB0D18EAFF8B00A47C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524CFB0E18EAFF8B00A47C75 /* Build configuration list for PBXNativeTarget "Multidimensional Page ControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524CFB0F18EAFF8B00A47C75 /* Debug */,
+				524CFB1018EAFF8B00A47C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524CFAD718EAFF8B00A47C75 /* Project object */;
+}
