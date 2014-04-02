@@ -84,14 +84,14 @@
     // Create a global UIPageViewController that will be added to your view
     UIPageViewController *myMultidimensionalController = [multidimensionalPaging createMultidimensionalPagingWithArray:hierarchyArray startHierarchyAtRow:1 Column:0];
     
-    // There are 4 cycle modes - play with them!
+    // There are 4 cycle modes - default is standard - play with them!
     // standard - where the user can't swipe left, right, up or down when they reach the last views at the border
     // horizontalInfinite - where the user can swipe left and right infinitely and loop back onto their views
     // verticalInfinite - where the user can swipe up and down infinitely and loop back onto their views
     // infinite - where the user can swipe left, right, up and down infinitely and loop back onto their views
     [multidimensionalPaging setCycleMode:standard];
     
-    // There are 2 navigation modes - play with them!
+    // There are 2 navigation modes - default is fluid - play with them!
     // fluid - where each columns moves independently one from another, just like the date picker
     // grid - where all the columns move together so moving up one view brings all the other columns up one view too etc.
     [multidimensionalPaging setNavigationMode:grid];
