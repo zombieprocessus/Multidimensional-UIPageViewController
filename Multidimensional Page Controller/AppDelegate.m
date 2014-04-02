@@ -2,9 +2,9 @@
 //  AppDelegate.m
 //  Multidimensional Page Controller
 //
-//  Created by John on 01/04/2014.
+//  Created by Jonathan Neumann Massey on 01/04/2014.
 //  Copyright (c) 2014 Zombie Processus. All rights reserved.
-//
+//  Find more at WWW.ZOMBIEPROCESS.US
 
 #import "AppDelegate.h"
 
@@ -12,10 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // DON'T NEED THAT SINCE WE ARE DEFINING THE INTERFACE IN THE PROJECT'S GENERAL SETTINGS
+    /*
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    */
     return YES;
 }
 

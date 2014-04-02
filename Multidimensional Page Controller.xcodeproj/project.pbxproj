@@ -19,6 +19,9 @@
 		524CFAFE18EAFF8B00A47C75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CFAE618EAFF8B00A47C75 /* UIKit.framework */; };
 		524CFB0618EAFF8B00A47C75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524CFB0418EAFF8B00A47C75 /* InfoPlist.strings */; };
 		524CFB0818EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CFB0718EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m */; };
+		524CFB1218EAFFBF00A47C75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524CFB1118EAFFBF00A47C75 /* MainStoryboard.storyboard */; };
+		524CFB1518EB001000A47C75 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CFB1418EB001000A47C75 /* MainViewController.m */; };
+		524CFB1818EB081600A47C75 /* MultidimensionalPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CFB1718EB081600A47C75 /* MultidimensionalPaging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		524CFB0318EAFF8B00A47C75 /* Multidimensional Page ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multidimensional Page ControllerTests-Info.plist"; sourceTree = "<group>"; };
 		524CFB0518EAFF8B00A47C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		524CFB0718EAFF8B00A47C75 /* Multidimensional_Page_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multidimensional_Page_ControllerTests.m; sourceTree = "<group>"; };
+		524CFB1118EAFFBF00A47C75 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		524CFB1318EB001000A47C75 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		524CFB1418EB001000A47C75 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		524CFB1618EB081600A47C75 /* MultidimensionalPaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultidimensionalPaging.h; sourceTree = "<group>"; };
+		524CFB1718EB081600A47C75 /* MultidimensionalPaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultidimensionalPaging.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,9 @@
 			children = (
 				524CFAF118EAFF8B00A47C75 /* AppDelegate.h */,
 				524CFAF218EAFF8B00A47C75 /* AppDelegate.m */,
+				524CFB1318EB001000A47C75 /* MainViewController.h */,
+				524CFB1418EB001000A47C75 /* MainViewController.m */,
+				526D59FA18ECC4B2001D6DA3 /* Multidimensional Paging */,
 				524CFAF418EAFF8B00A47C75 /* Images.xcassets */,
 				524CFAE918EAFF8B00A47C75 /* Supporting Files */,
 			);
@@ -122,6 +133,7 @@
 				524CFAEB18EAFF8B00A47C75 /* InfoPlist.strings */,
 				524CFAEE18EAFF8B00A47C75 /* main.m */,
 				524CFAF018EAFF8B00A47C75 /* Multidimensional Page Controller-Prefix.pch */,
+				524CFB1118EAFFBF00A47C75 /* MainStoryboard.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +154,15 @@
 				524CFB0418EAFF8B00A47C75 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		526D59FA18ECC4B2001D6DA3 /* Multidimensional Paging */ = {
+			isa = PBXGroup;
+			children = (
+				524CFB1618EB081600A47C75 /* MultidimensionalPaging.h */,
+				524CFB1718EB081600A47C75 /* MultidimensionalPaging.m */,
+			);
+			name = "Multidimensional Paging";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524CFB1218EAFFBF00A47C75 /* MainStoryboard.storyboard in Resources */,
 				524CFAED18EAFF8B00A47C75 /* InfoPlist.strings in Resources */,
 				524CFAF518EAFF8B00A47C75 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				524CFAF318EAFF8B00A47C75 /* AppDelegate.m in Sources */,
+				524CFB1518EB001000A47C75 /* MainViewController.m in Sources */,
 				524CFAEF18EAFF8B00A47C75 /* main.m in Sources */,
+				524CFB1818EB081600A47C75 /* MultidimensionalPaging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +461,7 @@
 				524CFB0D18EAFF8B00A47C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524CFB0E18EAFF8B00A47C75 /* Build configuration list for PBXNativeTarget "Multidimensional Page ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +470,7 @@
 				524CFB1018EAFF8B00A47C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
